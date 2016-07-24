@@ -1,11 +1,58 @@
 body {
+	background-color: #DDDDDD;
+}
+
+#content {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 20px;
+
+	width: 600px;
+	height: 650px;
+
+	background-color: red;
+}
+
+#grid {
+	width: 544px;
+	height: 544px;
+
+	margin-left: auto;
+	margin-right: auto;
+
 	background-color: gray;
 }
 
 .node {
 	float: left;
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	background-color: white;
-	margin: 5px;
+	margin: 2px;
+}
+
+#buttons {
+	height: 52px;
+}
+
+#reset {
+	color: white;
+
+	text-align: center;
+	line-height: 30px;
+
+	margin: 10px auto;
+
+	width: 130px;
+	height: 30px;
+	
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+
+	background-color: gray
+
 }
