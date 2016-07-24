@@ -10,9 +10,13 @@ body {
 	padding: 20px;
 
 	width: 600px;
-	height: 650px;
+	height: 690px;
 
 	background-color: red;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
 }
 
 #grid {
@@ -55,4 +59,18 @@ body {
 
 	background-color: gray
 
+}
+
+.knob {
+	margin: 20px 7px;
+
+	width: 65px;
+	height: 65px;
+
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 32.5px;
+
+	background-color: white;
 }
